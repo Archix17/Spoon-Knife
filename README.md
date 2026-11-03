@@ -1,26 +1,42 @@
-### Hello from main branch!
+# Git Branching and Merge Conflict Resolution
 
-This repository is meant to provide an example for *forking* a repository on GitHub.
+## Project: Spoon-Knife
 
-Creating a *fork* is producing a personal copy of someone else's project. Forks act as a sort of bridge between the original repository and your personal copy. You can submit *Pull Requests* to help make other people's projects better by offering your changes up to the original project. Forking is at the core of social coding at GitHub.
+### Introduction
+This repository demonstrates collaborative development using Git and GitHub. It shows how multiple developers can work on different branches and resolve merge conflicts.
 
-After forking this repository, you can make some changes to the project, and submit [a Pull Request](https://github.com/octocat/Spoon-Knife/pulls) as practice.
+## Original Project
+This project is used to practise Git branching, merging, and collaboration.
 
-For some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! :sparkling\_heart:
+## Conflict Demonstration
 
+**Developer 1 – Feature Branch:**
+Hello from feature branch!
 
+**Developer 2 – Main Branch:**
+Hello from main branch!
 
-\## Student Contribution
+## Conflict Resolution
 
+Both developers modified the same line in the README file. Git detected a merge conflict because the changes were different.
 
+The conflict was resolved manually by combining the changes into one final statement.
 
-This repository was used to practise Git and GitHub.
+**Final Resolved Content:**
 
+Hello from both developers!
 
+## Git Operations Performed
 
-\- Created a feature branch.
+1. Created a feature branch named conflict-demo.
+2. Modified the README file in the feature branch.
+3. Committed and pushed the changes.
+4. Modified the same README file in the main branch.
+5. Merged the main branch into the feature branch.
+6. Detected and resolved the merge conflict.
+7. Committed the resolved changes.
+8. Pushed the updated feature branch to GitHub.
+9. Created a pull request.
 
-\- Updated the README file.
-
-\- Practised commits and pull requests.
-
+## Result
+Successfully demonstrated Git branching, merging, conflict detection, manual conflict resolution, and collaborative development using GitHub.
